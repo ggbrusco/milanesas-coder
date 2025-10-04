@@ -12,8 +12,8 @@ Para el footer: rgb(248, 243, 206);
 /* Etiquetas */
 
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
 }
 
@@ -55,11 +55,12 @@ main {
   font-variation-settings:
     "MORF" 15,
     "SHLN" 50;
-    background-color: rgb(122, 122, 115);
 
 }
 
-
+body {
+      background-color: rgb(122, 122, 115);
+}
 
 footer {
   font-family: "Honk", system-ui;
@@ -98,11 +99,6 @@ footer {
     height: 50px;
 }
 
-.milanesasFotoTamaño {
-    height: 275px;
-    animation-name: fadeIn;                     /* ! Nombre de la animación tiene que ser igual al que se usa en el keyFrame sino no funciona */
-    animation-duration: 1.5s;                   /* ! Si o Si agregar la duración de la animación por que sino no funciona en el sitio web */
-}
 
 @keyframes fadeIn {         
   from {
@@ -119,16 +115,15 @@ footer {
 
 .textoAlCentro {
     text-align: center;
-}
+    margin-top: 15px;
+  }
 
-/*.milanesaPersonalizadaYTamañoDeTextoGrande {   /* todo Arreglar (no queda la letra en el medio de la imagen)              
-    text-transform: uppercase;
-    background: no-repeat;
-    background-image: url(../Medios/do-sharp.png);
-    background-position: left;
-    background-size: 300px 50px
-}
-*/
+.tituloElegirnos {
+  text-align: center;
+    margin-top: 60px;
+    margin-bottom: 70px;
+  }
+
 
 .fuenteEntreSecciones {
   font-family: "Honk", system-ui;
@@ -141,7 +136,47 @@ footer {
   
 }
 
-.card {
-  background-color: rgb(44, 44, 40);   
+.card-group {   
+  margin-right: 34px;
+  margin-left: 34px;
+  margin-top: 34px;
+  border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
 }
 
+.card {
+  background-color: rgb(44, 44, 40);
+}
+
+.seccionElegirnos {
+  background-color: rgb(44, 44, 40);
+}
+
+.cajaPorQueElegirnos {
+  height: 578px; 
+  width: 1536px;
+  display: flex;
+  margin: auto;
+}
+
+.hijoPorQueElegirnosTexto {
+  height: 432px;
+  width: 768px;
+  margin-top: 75px;
+  margin-left: 35px;
+}
+
+.hijoPorQueElegirnosImagen {
+  height: 578px;
+  width: 768px;
+}
+
+.fotoCocinero {
+  position: relative;
+    top: -60x; 
+    left: 100px;
+    border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+}
