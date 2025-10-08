@@ -63,6 +63,7 @@ body {
 }
 
 footer {
+  margin-top: 34px;
   font-family: "Honk", system-ui;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -120,7 +121,7 @@ footer {
 
 .tituloElegirnos {
   text-align: center;
-    margin-top: 60px;
+    margin-top: 80px;
     margin-bottom: 70px;
   }
 
@@ -151,6 +152,12 @@ footer {
 
 .seccionElegirnos {
   background-color: rgb(44, 44, 40);
+  margin-right: 34px;
+  margin-left: 34px;
+  margin-top: 34px;
+  border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
 }
 
 .cajaPorQueElegirnos {
@@ -158,6 +165,11 @@ footer {
   width: 1536px;
   display: flex;
   margin: auto;
+  border-bottom-color: aliceblue;
+  border-style: dotted;
+  border-top: unset;
+  border-left: unset;
+  border-right: unset;
 }
 
 .hijoPorQueElegirnosTexto {
@@ -174,9 +186,71 @@ footer {
 
 .fotoCocinero {
   position: relative;
-    top: -60x; 
-    left: 100px;
+    top: 15px; 
+    left: 145px;
     border-radius: 10px 10px 10px 10px;
   -webkit-border-radius: 10px 10px 10px 10px;
   -moz-border-radius: 10px 10px 10px 10px;
 }
+
+.cajaConfianza {
+  height: 425px; 
+  width: 1536px;
+  display: flex;
+  margin: auto;
+}
+
+.hijoConfianzaTexto {
+  height: 432px;
+  width: 1000px;
+  margin-top: 75px;
+  margin-left: 35px;
+}
+
+.hijoConfianzaimagenes {
+  margin-top: 75px;
+  height: 300px;
+  width: 700px;
+}
+
+.logoMedalia {
+    position: relative;
+    top: 45px; 
+    left: 10px;
+    height: auto;
+    width: auto;
+}
+
+.logoPuig{ 
+    position: relative;
+    top: 55px; 
+    left: -15px;
+    height: 120px;
+    width: auto;
+}
+
+.logoDHL {
+    position: relative;
+    top: 55px; 
+    left: 5px;
+    height: auto;
+    width: auto;
+}
+
+.logoYKK {
+    position: relative;
+    top: 25px; 
+    left: -15px;
+    height: 120px;
+    width: auto;
+  }
+
+.bannerYAgradecimientos {
+    text-align: center;
+    font-size: 50px;
+    background-image: url(../Medios/360_F_706000626_4k6cuZwziXHr3M6udFmVuudLueH8KmYe.jpg  );
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    backg
+    }
