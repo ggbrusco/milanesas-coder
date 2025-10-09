@@ -29,7 +29,7 @@
           <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../paginas/galeria.html">Galeria</a>
+          <a class="nav-link disabled" href="../paginas/galeria.html">Galeria</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="../paginas/acercade.html">Acerca De..</a>
@@ -45,27 +45,27 @@
 
     <!-- Cuerpo Principal-->
     <main>  
-       <section>    
-            <h1> Dejanos tu correo para recibir notificaciones sobre novedades y descuentos nuevos!</h1>
-        
-            <!--Formulario Para enviar tu nombre y tu email-->
-            <form action="" method="post">
-                <label for="nombre">Nombre:</label>
-                <input type="text" name="nombre" id="nombre">     
-                <label for="email">Email:</label>
-                <input type="email" name="email" id="email">
-                <input type="submit" value="Enviar">
-            </form>
-        </section>
-            
-        <section> <!--Formulario de solo texto para enviar tu opinion-->
-            <h2> Dejanos tu opinion!</h2>
-            <form action="" method="post">
-                <label for="mensaje"> Mensaje</label>
-                <textarea name="mensaje" id="mensaje"></textarea>
-                <input type="submit" value="Enviar">
-            </form>
-        </section>
+
+           <h1 class="tituloElegirnos"> ¿Quieres estar al tanto de las novedades? </h1>
+                    <h2> Dejanos tu mail para recibir Notificaciones importantes y descuentos nuevos!
+                          <section class="seccionNewsletter"> <!-- Recibir novedades -->
+                            <div class="cajaNewsletter">
+                              <div class="hijoNewsletter">  
+                                   <form action="" method="post">     
+                                    <label for="email">Email:</label>
+                                    <input class="tamañoChiquito" type="email" name="email" id="email">
+                                    <input  type="submit" value="Enviar">
+                                  </form>
+                                  <section> <!--Formulario de solo texto para enviar tu opinion-->
+                                    <h2> Dejanos tu opinion!</h2>
+                                     <form action="" method="post">
+                                      <label for="mensaje"> Mensaje</label>
+                                      <textarea class="tamañoChiquito" name="mensaje" id="mensaje"></textarea>
+                                      <input class="tamañoChiquitoEnviar" type="submit" value="Enviar">
+                                </form>
+                              </section>
+                                </div>
+                              
     </main>
     
     <!-- Fin de Página -->

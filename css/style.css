@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');   
+@import url('https://fonts.googleapis.com/css2?family=Economica:ital,wght@1,400;1,700&family=Honk:MORF,SHLN@18,100&family=Inclusive+Sans:ital,wght@0,300..700;1,300..700&display=swap');
 
 /* Colores de fondo para cada sección
 
@@ -21,7 +22,7 @@ Para el footer: rgb(248, 243, 206);
 html {
     font-size: 175%;
     background-color: rgb(122, 122, 115);
-}
+  }
 
 header {
   font-family: "Honk", system-ui;
@@ -55,8 +56,7 @@ main {
   font-variation-settings:
     "MORF" 15,
     "SHLN" 50;
-
-}
+  }
 
 body {
       background-color: rgb(122, 122, 115);
@@ -72,7 +72,8 @@ footer {
     "MORF" 15,
     "SHLN" 50;
     background-color: rgb(248, 243, 206);
-}
+    padding-left: 5px;
+  }
 
 /* Clases */
 
@@ -132,9 +133,8 @@ footer {
   font-weight: 200;
   font-style: normal;
   font-variation-settings:
-    "MORF" 18,
+    "MORF" auto,
     "SHLN" 100;
-  
 }
 
 .card-group {   
@@ -253,3 +253,261 @@ footer {
     background-repeat: no-repeat;
     background-position: center;
   }
+
+/* Lo siguiente afecta al html "Acerca de.." */
+
+.contendorGrid img {
+  width: 100%;
+  height 100%; 
+}
+
+.contendorGrid {
+  display: grid;
+  grid-template-areas:
+  "titulo titulo titulo"
+  "cocineros cocineros historia1"
+  "historia2  historia2 grupoDeAmigos"
+  "historia3 historia3  grupoDeAmigos";
+
+  grid-template-columns:  30% 30% 35%;
+  grid-template-rows:   100px 540px 200px 400px;
+  gap: 20px;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+
+}
+
+.titulo {
+  grid-area: titulo;
+}
+
+.cocineros {
+  grid-area: cocineros;
+}
+
+.hisotoria1 {
+  grid-area: historia1;
+}
+
+.historia2 {
+  grid-area: historia2;
+}
+
+.grupoDeAmigos {
+  grid-area: grupoDeAmigos;
+}
+
+.historia3 {
+  grid-area: historia3;
+}
+
+.cajaPreguntas {
+  background-color: white;
+  width: 1536px;
+  height: 700px;
+  display: flex;
+  margin: auto;
+  font-family: "Inclusive Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px; 
+  box-shadow: -5px 2px 55px 1px rgba(0,0,0,1);
+  -webkit-box-shadow: -5px 2px 55px 1px rgba(0,0,0,1);
+  -moz-box-shadow: -5px 2px 55px 1px rgba(0,0,0,1);
+}
+
+.hijoPreguntas {
+  height: 432px;
+  width: 1000px;
+  margin-top: 30px;
+  margin-left: 35px;
+
+}
+
+.seccionNewsletter {
+  background-color: rgb(44, 44, 40);
+  margin-right: 34px;
+  margin-left: 34px;
+  margin-top: 34px;
+  border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+}
+
+.cajaNewsletter {
+  height: 578px; 
+  width: 1536px;
+  display: flex;
+  margin: auto;
+}
+
+.hijoNewsletter {
+  height: 432px;
+  width: 768px;
+  margin-top: 5px;
+  margin-left: 35px;
+  
+}
+
+/* mobile */
+
+@media (max-width:480px) {
+  .logoHeader {
+    height: 55px;
+  }
+
+.cajaPorQueElegirnos {
+  height: 100%; 
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  border-bottom-color: aliceblue;
+  border-style: dotted;
+  border-top: unset;
+  border-left: unset;
+  border-right: unset;
+}
+
+.hijoPorQueElegirnosTexto {
+  height: 100%;
+  width: 350px;
+  margin-top: 75px;
+  margin-left: 35px;
+}
+
+.hijoPorQueElegirnosImagen {
+  height: 100%;
+  width: 768px;
+}
+
+.fotoCocinero {
+  height: 80%;
+  position: relative;
+  size-adjust: 10%;
+  top: 0px; 
+    left: 0px;
+    border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+}
+
+.cajaConfianza {
+  height: 100%; 
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.hijoConfianzaTexto {
+  height: 100%;
+  width: 350px;
+  margin-top: 75px;
+  margin-left: 35px;
+}
+
+.hijoConfianzaimagenes {
+  margin-top: 10px;
+  height: 100%;
+  width: 90px;
+}
+
+.logoMedalia {
+    position: relative;
+    top: 10px; 
+    left: 10px;
+    height: 100px;
+    width: auto;
+}
+
+.logoPuig{ 
+    position: relative;
+    top: 10px; 
+    left: -15px;
+    height: 100px;
+    width: auto;
+}
+
+.logoDHL {
+    position: relative;
+    top: 2px; 
+    left: 5px;
+    height: 100px;
+    width: auto;
+}
+
+.logoYKK {
+    position: relative;
+    top: 5px; 
+    left: -15px;
+    height: 100px;
+    width: auto;
+  }
+
+  .contendorGrid {
+  grid-template-areas:
+  "titulo"
+  "cocineros"
+  "historia1"
+  "grupoDeAmigos"
+  "hisotoria2"
+  "historia3";
+
+  grid-template-columns:  1fr ;
+  grid-template-rows:   10%; 10% 30%
+  gap: 5px;
+  
+}
+
+.titulo {
+  grid-area: titulo;
+}
+
+.cocineros {
+  grid-area: cocineros;
+}
+
+.hisotoria1 {
+  grid-area: historia1;
+}
+
+.historia2 {
+  grid-area: historia2;
+}
+
+.grupoDeAmigos {
+  grid-area: grupoDeAmigos;
+}
+
+.historia3 {
+  grid-area: historia3;
+}
+
+.tamañoChiquito {
+  font-size: 10px;
+}
+
+.tamañoChiquitoEnviar {
+  font-size: 30px;
+}
+
+.cajaNewsletter {
+  height: 100%; 
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.hijoNewsletter {
+  height: 100%;
+  width: 350px;
+  margin-top: 5px;
+  margin-left: 35px;
+  
+}
