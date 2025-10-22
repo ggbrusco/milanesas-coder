@@ -360,7 +360,7 @@ footer {
     height: 55px;
   }
 
-.cajaPorQueElegirnos {
+  .cajaPorQueElegirnos {
   height: 100%; 
   width: auto;
   display: flex;
@@ -373,27 +373,27 @@ footer {
   border-right: unset;
 }
 
-.hijoPorQueElegirnosTexto {
-  height: 100%;
-  width: 350px;
-  margin-top: 75px;
-  margin-left: 35px;
-}
+  .hijoPorQueElegirnosTexto {
+    height: 100%;
+    width: 350px;
+    margin-top: 75px;
+    margin-left: 35px;
+  }
 
-.hijoPorQueElegirnosImagen {
-  height: 100%;
-  width: 768px;
-}
+  .hijoPorQueElegirnosImagen {
+    height: 100%;
+    width: 50%;                     
+  }
 
-.fotoCocinero {
-  height: 80%;
-  position: relative;
-  size-adjust: 10%;
-  top: 0px; 
+  .fotoCocinero {
+    height: 80%;
+    position: relative;
+    size-adjust: 10%;
+    top: 0px; 
     left: 0px;
     border-radius: 10px 10px 10px 10px;
-  -webkit-border-radius: 10px 10px 10px 10px;
-  -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
 }
 
 .cajaConfianza {
@@ -450,42 +450,33 @@ footer {
   }
 
   .contendorGrid {
-  grid-template-areas:
-  "titulo"
-  "cocineros"
-  "historia1"
-  "grupoDeAmigos"
-  "hisotoria2"
-  "historia3";
-
-  grid-template-columns:  1fr ;
-  grid-template-rows:   10%; 10% 30%
-  gap: 5px;
+  height: 100%; 
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
   
 }
 
 .titulo {
-  grid-area: titulo;
+  padding: 5%;
 }
 
-.cocineros {
-  grid-area: cocineros;
-}
-
-.hisotoria1 {
-  grid-area: historia1;
+.historia1 {
+  padding: 5%;
 }
 
 .historia2 {
-  grid-area: historia2;
+  padding: 5%;
 }
 
 .grupoDeAmigos {
-  grid-area: grupoDeAmigos;
+  padding: 1%;
+  margin-bottom: 5%;
 }
 
 .historia3 {
-  grid-area: historia3;
+  padding: 5%;;
 }
 
 .tamañoChiquito {
@@ -494,6 +485,29 @@ footer {
 
 .tamañoChiquitoEnviar {
   font-size: 30px;
+}
+
+.cajaPreguntas {
+  height: 1300px; 
+  width: 100%;
+  display: flex;
+  margin: auto;
+  border-bottom-color: aliceblue;
+  border-style: dotted;
+  border-top: unset;
+  border-left: unset;
+  border-right: unset;
+}
+
+.hijoPreguntas {
+    height: 100%;
+    width: 350px;
+    margin-top: 75px;
+    margin-left: 35px;
+}
+
+.tamanoMapa {
+  width: 80%;
 }
 
 .cajaNewsletter {
