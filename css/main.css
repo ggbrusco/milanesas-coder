@@ -1,0 +1,429 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Honk&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Economica:ital,wght@1,400;1,700&family=Honk:MORF,SHLN@18,100&family=Inclusive+Sans:ital,wght@0,300..700;1,300..700&display=swap");
+/* Colores de fondo para cada sección
+
+Para el Html entero: rgb(122, 122, 115)
+Para el Header: rgb(87, 86, 79);
+Para el main: rgb(122, 122, 115);
+Para el footer: rgb(248, 243, 206);
+
+*/
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 175%;
+  background-color: rgb(122, 122, 115);
+}
+
+header {
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "MORF" 15, "SHLN" 50;
+  background-color: rgb(87, 86, 79);
+  position: sticky;
+  top: 0;
+  z-index: 99; /* tuve que escribir esto para que el header este por encima de las "cards" de bootstrp" */
+}
+header .logoHeader {
+  height: 75px;
+}
+header nav .fondoColorNav {
+  background-color: rgb(87, 86, 79);
+}
+
+head ul {
+  list-style-type: none;
+}
+
+main {
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "MORF" 15, "SHLN" 50;
+}
+
+body {
+  background-color: rgb(122, 122, 115);
+}
+
+footer {
+  margin-top: 34px;
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "MORF" 15, "SHLN" 50;
+  background-color: rgb(248, 243, 206);
+  padding-left: 5px;
+}
+footer .logoFooterFacebook {
+  height: 50px;
+}
+footer .logoFooterTwitter {
+  height: 50px;
+}
+
+/* Lo siguiente afecta al html "Inicio o Index.." */
+.textoBienvenidaYBanner, .bannerYAgradecimientos {
+  text-align: center;
+  background-image: url(../Medios/Flash\ Sale\ 2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.textoAlCentro {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.fuenteEntreSecciones {
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings: "MORF" auto, "SHLN" 100;
+}
+
+.card-group {
+  margin-right: 34px;
+  margin-left: 34px;
+  margin-top: 34px;
+  border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+}
+.card-group .card {
+  background-color: rgb(44, 44, 40);
+}
+
+.tituloElegirnos {
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 70px;
+}
+
+.seccionElegirnos {
+  background-color: rgb(44, 44, 40);
+  margin-right: 34px;
+  margin-left: 34px;
+  margin-top: 34px;
+  border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+}
+.seccionElegirnos .cajaPorQueElegirnos {
+  height: 578px;
+  width: 1536px;
+  display: flex;
+  margin: auto;
+  border-bottom-color: aliceblue;
+  border-style: dotted;
+  border-top: unset;
+  border-left: unset;
+  border-right: unset;
+}
+.seccionElegirnos .cajaPorQueElegirnos .hijoPorQueElegirnosTexto {
+  height: 432px;
+  width: 768px;
+  margin-top: 75px;
+  margin-left: 35px;
+}
+.seccionElegirnos .hijoPorQueElegirnosImagen {
+  height: 578px;
+  width: 768px;
+}
+.seccionElegirnos .hijoPorQueElegirnosImagen .fotoCocinero {
+  position: relative;
+  top: 15px;
+  left: 145px;
+  border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+}
+.seccionElegirnos .cajaConfianza {
+  height: 425px;
+  width: 1536px;
+  display: flex;
+  margin: auto;
+}
+.seccionElegirnos .cajaConfianza .hijoConfianzaTexto {
+  height: 432px;
+  width: 1000px;
+  margin-top: 75px;
+  margin-left: 35px;
+}
+.seccionElegirnos .cajaConfianza .hijoConfianzaimagenes {
+  margin-top: 75px;
+  height: 300px;
+  width: 700px;
+}
+.seccionElegirnos .cajaConfianza .hijoConfianzaimagenes .logoMedalia {
+  position: relative;
+  top: 45px;
+  left: 10px;
+  height: auto;
+  width: auto;
+}
+.seccionElegirnos .cajaConfianza .hijoConfianzaimagenes .logoPuig {
+  position: relative;
+  top: 55px;
+  left: -15px;
+  height: 120px;
+  width: auto;
+}
+.seccionElegirnos .cajaConfianza .hijoConfianzaimagenes .logoDHL {
+  position: relative;
+  top: 55px;
+  left: 5px;
+  height: auto;
+  width: auto;
+}
+.seccionElegirnos .cajaConfianza .hijoConfianzaimagenes .logoYKK {
+  position: relative;
+  top: 25px;
+  left: -15px;
+  height: 120px;
+  width: auto;
+}
+
+.bannerYAgradecimientos {
+  font-size: 50px;
+  background-image: url(../Medios/360_F_706000626_4k6cuZwziXHr3M6udFmVuudLueH8KmYe.jpg);
+}
+
+/* Lo siguiente afecta al html "Acerca de.." */
+.contendorGrid {
+  display: grid;
+  grid-template-areas: "titulo titulo titulo" "cocineros cocineros historia1" "historia2  historia2 grupoDeAmigos" "historia3 historia3  grupoDeAmigos";
+  grid-template-columns: 30% 30% 35%;
+  grid-template-rows: 100px 540px 200px 400px;
+  gap: 20px;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+.contendorGrid img {
+  width: 100%;
+}
+.contendorGrid .titulo {
+  grid-area: titulo;
+}
+.contendorGrid .cocineros {
+  grid-area: cocineros;
+}
+.contendorGrid .hisotoria1 {
+  grid-area: historia1;
+}
+.contendorGrid .historia2 {
+  grid-area: historia2;
+}
+.contendorGrid .grupoDeAmigos {
+  grid-area: grupoDeAmigos;
+}
+.contendorGrid .historia3 {
+  grid-area: historia3;
+}
+
+.cajaPreguntas {
+  background-color: white;
+  width: 1536px;
+  height: 700px;
+  display: flex;
+  margin: auto;
+  font-family: "Inclusive Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  box-shadow: -5px 2px 55px 1px rgb(0, 0, 0);
+  -webkit-box-shadow: -5px 2px 55px 1px rgb(0, 0, 0);
+  -moz-box-shadow: -5px 2px 55px 1px rgb(0, 0, 0);
+}
+.cajaPreguntas .hijoPreguntas {
+  height: 432px;
+  width: 1000px;
+  margin-top: 30px;
+  margin-left: 35px;
+}
+
+/* Lo siguiente afecta al html "Newsletter" */
+.seccionNewsletter {
+  background-color: rgb(44, 44, 40);
+  margin-right: 34px;
+  margin-left: 34px;
+  margin-top: 34px;
+  border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+}
+.seccionNewsletter .cajaNewsletter {
+  height: 578px;
+  width: 1536px;
+  display: flex;
+  margin: auto;
+}
+.seccionNewsletter .cajaNewsletter .hijoNewsletter {
+  height: 432px;
+  width: 768px;
+  margin-top: 5px;
+  margin-left: 35px;
+}
+
+@media (max-width: 480px) {
+  .logoHeader {
+    height: 55px;
+  }
+  .cajaPorQueElegirnos {
+    height: 100%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border-bottom-color: aliceblue;
+    border-style: dotted;
+    border-top: unset;
+    border-left: unset;
+    border-right: unset;
+  }
+  .hijoPorQueElegirnosTexto {
+    height: 100%;
+    width: 350px;
+    margin-top: 75px;
+    margin-left: 35px;
+  }
+  .hijoPorQueElegirnosImagen {
+    height: 100%;
+    width: 50%;
+  }
+  .fotoCocinero {
+    height: 80%;
+    position: relative;
+    size-adjust: 10%;
+    top: 0px;
+    left: 0px;
+    border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+  }
+  .cajaConfianza {
+    height: 100%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+  .hijoConfianzaTexto {
+    height: 100%;
+    width: 350px;
+    margin-top: 75px;
+    margin-left: 35px;
+  }
+  .hijoConfianzaimagenes {
+    margin-top: 10px;
+    height: 100%;
+    width: 90px;
+  }
+  .logoMedalia {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    height: 100px;
+    width: auto;
+  }
+  .logoPuig {
+    position: relative;
+    top: 10px;
+    left: -15px;
+    height: 100px;
+    width: auto;
+  }
+  .logoDHL {
+    position: relative;
+    top: 2px;
+    left: 5px;
+    height: 100px;
+    width: auto;
+  }
+  .logoYKK {
+    position: relative;
+    top: 5px;
+    left: -15px;
+    height: 100px;
+    width: auto;
+  }
+  .contendorGrid {
+    height: 100%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+  .titulo {
+    padding: 5%;
+  }
+  .historia1 {
+    padding: 5%;
+  }
+  .historia2 {
+    padding: 5%;
+  }
+  .grupoDeAmigos {
+    padding: 1%;
+    margin-bottom: 5%;
+  }
+  .historia3 {
+    padding: 5%;
+  }
+  .tamañoChiquito {
+    font-size: 10px;
+  }
+  .tamañoChiquitoEnviar {
+    font-size: 30px;
+  }
+  .cajaPreguntas {
+    height: 1300px;
+    width: 100%;
+    display: flex;
+    margin: auto;
+    border-bottom-color: aliceblue;
+    border-style: dotted;
+    border-top: unset;
+    border-left: unset;
+    border-right: unset;
+  }
+  .hijoPreguntas {
+    height: 100%;
+    width: 350px;
+    margin-top: 75px;
+    margin-left: 35px;
+  }
+  .tamanoMapa {
+    width: 80%;
+  }
+  .cajaNewsletter {
+    height: 100%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+  .hijoNewsletter {
+    height: 100%;
+    width: 350px;
+    margin-top: 5px;
+    margin-left: 35px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,68 @@
+/* Lo siguiente afecta al html "Acerca de.." */
+
+.contendorGrid {
+  display: grid;
+  grid-template-areas:
+  "titulo titulo titulo"
+  "cocineros cocineros historia1"
+  "historia2  historia2 grupoDeAmigos"
+  "historia3 historia3  grupoDeAmigos";
+
+  grid-template-columns:  30% 30% 35%;
+  grid-template-rows:   100px 540px 200px 400px;
+  gap: 20px;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  img {
+        width: 100%;
+    }
+  .titulo {
+  grid-area: titulo;
+ }
+
+  .cocineros {
+  grid-area: cocineros;
+ }
+
+  .hisotoria1 {
+  grid-area: historia1;
+ }
+
+  .historia2 {
+  grid-area: historia2;
+ }
+
+ .grupoDeAmigos {
+  grid-area: grupoDeAmigos;
+ }
+
+ .historia3 {
+  grid-area: historia3;
+ }
+}
+
+.cajaPreguntas {
+  background-color: white;
+  width: 1536px;
+  height: 700px;
+  display: flex;
+  margin: auto;
+  font-family: "Inclusive Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px; 
+  box-shadow: -5px 2px 55px 1px rgba(0,0,0,1);
+  -webkit-box-shadow: -5px 2px 55px 1px rgba(0,0,0,1);
+  -moz-box-shadow: -5px 2px 55px 1px rgba(0,0,0,1);
+    .hijoPreguntas {
+        height: 432px;
+        width: 1000px;
+        margin-top: 30px;
+        margin-left: 35px;
+    }
+}
+

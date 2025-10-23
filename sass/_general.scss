@@ -1,0 +1,85 @@
+@use "./variables" as*;
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');   
+@import url('https://fonts.googleapis.com/css2?family=Economica:ital,wght@1,400;1,700&family=Honk:MORF,SHLN@18,100&family=Inclusive+Sans:ital,wght@0,300..700;1,300..700&display=swap');
+
+
+/* Colores de fondo para cada sección
+
+Para el Html entero: rgb(122, 122, 115)
+Para el Header: rgb(87, 86, 79);
+Para el main: rgb(122, 122, 115);
+Para el footer: rgb(248, 243, 206);
+
+*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+html {
+    font-size: 175%;
+    background-color: $gris;
+  }
+
+header {
+  font-family: $fontPrincipal;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
+    background-color: $grisOscuro;
+    position: sticky;
+    top: 0;
+    z-index: 99;           /* tuve que escribir esto para que el header este por encima de las "cards" de bootstrp" */
+    .logoHeader {
+            height: 75px; 
+         }
+    nav{
+      .fondoColorNav {
+        background-color: $grisOscuro;
+    }
+ }
+}
+
+head ul {
+  list-style-type: none;
+}
+
+
+main {
+  font-family: $fontPrincipal;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
+  }
+
+body {
+      background-color: $gris;
+}
+
+footer {
+  margin-top: 34px;
+  font-family: $fontPrincipal;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: 
+    "MORF" 15,
+    "SHLN" 50;
+    background-color: $amarilloClaro;
+    padding-left: 5px;
+    .logoFooterFacebook {
+    height: 50px;
+    }
+    .logoFooterTwitter {
+    height: 50px;
+    }
+}

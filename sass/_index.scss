@@ -1,0 +1,134 @@
+/* Lo siguiente afecta al html "Inicio o Index.." */
+
+.textoBienvenidaYBanner {
+    text-align: center;
+    background-image: url(../Medios/Flash\ Sale\ 2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.textoAlCentro {
+        text-align: center;
+        margin-top: 15px;
+  }
+
+.fuenteEntreSecciones {
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" auto,
+    "SHLN" 100;
+}
+
+.card-group {   
+  margin-right: 34px;
+  margin-left: 34px;
+  margin-top: 34px;
+  border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+    .card {
+  background-color: rgb(44, 44, 40);
+ }
+}
+
+.tituloElegirnos {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 70px;
+}
+
+.seccionElegirnos {
+  background-color: rgb(44, 44, 40);
+  margin-right: 34px;
+  margin-left: 34px;
+  margin-top: 34px;
+  border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+    .cajaPorQueElegirnos {
+        height: 578px; 
+        width: 1536px;
+        display: flex;
+        margin: auto;
+        border-bottom-color: aliceblue;
+        border-style: dotted;
+        border-top: unset;
+        border-left: unset;
+        border-right: unset;
+        .hijoPorQueElegirnosTexto {
+            height: 432px;
+            width: 768px;
+            margin-top: 75px;
+            margin-left: 35px;
+        }    
+    }
+        .hijoPorQueElegirnosImagen {
+            height: 578px;
+            width: 768px;        
+            .fotoCocinero {
+                position: relative;
+                top: 15px; 
+                left: 145px;
+                border-radius: 10px 10px 10px 10px;
+                -webkit-border-radius: 10px 10px 10px 10px;
+                -moz-border-radius: 10px 10px 10px 10px;
+            }
+        }
+    .cajaConfianza {
+        height: 425px; 
+        width: 1536px;
+        display: flex;
+        margin: auto;
+        .hijoConfianzaTexto {
+            height: 432px;
+            width: 1000px;
+            margin-top: 75px;
+            margin-left: 35px;
+        }
+        .hijoConfianzaimagenes {
+            margin-top: 75px;
+            height: 300px;
+            width: 700px;
+            .logoMedalia {
+                position: relative;
+                top: 45px; 
+                left: 10px;
+                height: auto;
+                width: auto;
+            }
+            .logoPuig{ 
+                position: relative;
+                top: 55px; 
+                left: -15px;
+                height: 120px;
+                width: auto;
+            }
+            .logoDHL {
+            position: relative;
+            top: 55px; 
+            left: 5px;
+            height: auto;
+            width: auto;
+          }
+          .logoYKK {
+            position: relative;
+            top: 25px; 
+            left: -15px;
+            height: 120px;
+            width: auto;
+          }
+        }
+   }
+}
+
+.bannerYAgradecimientos {
+    @extend .textoBienvenidaYBanner;
+    font-size: 50px;
+    background-image: url(../Medios/360_F_706000626_4k6cuZwziXHr3M6udFmVuudLueH8KmYe.jpg  );
+  }
+
+  

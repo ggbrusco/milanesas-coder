@@ -1,0 +1,25 @@
+/* Lo siguiente afecta al html "Newsletter" */
+
+.seccionNewsletter {
+  background-color: rgb(44, 44, 40);
+  margin-right: 34px;
+  margin-left: 34px;
+  margin-top: 34px;
+  border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+    .cajaNewsletter {
+        height: 578px; 
+        width: 1536px;
+        display: flex;
+        margin: auto;
+        .hijoNewsletter {
+            height: 432px;
+            width: 768px;
+            margin-top: 5px;
+            margin-left: 35px;
+  
+        }
+    }
+}
+

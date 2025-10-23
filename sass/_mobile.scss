@@ -1,0 +1,170 @@
+@media (max-width:480px) {
+  .logoHeader {
+    height: 55px;
+  }
+
+  .cajaPorQueElegirnos {
+  height: 100%; 
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  border-bottom-color: aliceblue;
+  border-style: dotted;
+  border-top: unset;
+  border-left: unset;
+  border-right: unset;
+}
+
+  .hijoPorQueElegirnosTexto {
+    height: 100%;
+    width: 350px;
+    margin-top: 75px;
+    margin-left: 35px;
+  }
+
+  .hijoPorQueElegirnosImagen {
+    height: 100%;
+    width: 50%;                     
+  }
+
+  .fotoCocinero {
+    height: 80%;
+    position: relative;
+    size-adjust: 10%;
+    top: 0px; 
+    left: 0px;
+    border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+  }
+
+  .cajaConfianza {
+    height: 100%; 
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .hijoConfianzaTexto {
+    height: 100%;
+    width: 350px;
+    margin-top: 75px;
+    margin-left: 35px;
+  }
+
+  .hijoConfianzaimagenes {
+    margin-top: 10px;
+    height: 100%;
+    width: 90px;
+  }
+
+  .logoMedalia {
+    position: relative;
+    top: 10px; 
+    left: 10px;
+    height: 100px;
+    width: auto;
+  }
+
+  .logoPuig { 
+    position: relative;
+    top: 10px; 
+    left: -15px;
+    height: 100px;
+    width: auto;
+  }
+
+  .logoDHL {
+    position: relative;
+    top: 2px; 
+    left: 5px;
+    height: 100px;
+    width: auto;
+  }
+
+  .logoYKK {
+    position: relative;
+    top: 5px; 
+    left: -15px;
+    height: 100px;
+    width: auto;
+  }
+
+  .contendorGrid {
+  height: 100%; 
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+ }
+
+.titulo {
+  padding: 5%;
+}
+
+.historia1 {
+  padding: 5%;
+}
+
+.historia2 {
+  padding: 5%;
+}
+
+.grupoDeAmigos {
+  padding: 1%;
+  margin-bottom: 5%;
+}
+
+.historia3 {
+  padding: 5%;;
+}
+
+.tamañoChiquito {
+  font-size: 10px;
+}
+
+.tamañoChiquitoEnviar {
+  font-size: 30px;
+}
+
+.cajaPreguntas {
+  height: 1300px; 
+  width: 100%;
+  display: flex;
+  margin: auto;
+  border-bottom-color: aliceblue;
+  border-style: dotted;
+  border-top: unset;
+  border-left: unset;
+  border-right: unset;
+}
+
+.hijoPreguntas {
+    height: 100%;
+    width: 350px;
+    margin-top: 75px;
+    margin-left: 35px;
+}
+
+.tamanoMapa {
+  width: 80%;
+}
+
+.cajaNewsletter {
+  height: 100%; 
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.hijoNewsletter {
+  height: 100%;
+  width: 350px;
+  margin-top: 5px;
+  margin-left: 35px;
+}
+}
+
