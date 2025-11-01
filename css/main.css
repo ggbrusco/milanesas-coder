@@ -151,7 +151,7 @@ footer .logoFooterTwitter {
 }
 .seccionElegirnos .cajaConfianza {
   height: 425px;
-  width: 1536px;
+  width: 85%;
   display: flex;
   margin: auto;
 }
@@ -164,7 +164,7 @@ footer .logoFooterTwitter {
 .seccionElegirnos .cajaConfianza .hijoConfianzaimagenes {
   margin-top: 75px;
   height: 300px;
-  width: 700px;
+  width: fit-content;
 }
 .seccionElegirnos .cajaConfianza .hijoConfianzaimagenes .logoMedalia {
   position: relative;
