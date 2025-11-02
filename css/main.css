@@ -120,7 +120,8 @@ footer .logoFooterTwitter {
   -webkit-border-radius: 10px 10px 10px 10px;
   -moz-border-radius: 10px 10px 10px 10px;
 }
-.seccionElegirnos .cajaPorQueElegirnos {
+
+.cajaPorQueElegirnos {
   height: 578px;
   width: 85%;
   display: flex;
@@ -131,17 +132,20 @@ footer .logoFooterTwitter {
   border-left: unset;
   border-right: unset;
 }
-.seccionElegirnos .cajaPorQueElegirnos .hijoPorQueElegirnosTexto {
+
+.hijoPorQueElegirnosTexto {
   height: 432px;
   width: 768px;
   margin-top: 75px;
   margin-left: 35px;
 }
-.seccionElegirnos .hijoPorQueElegirnosImagen {
+
+.hijoPorQueElegirnosImagen {
   height: 578px;
   width: 768px;
 }
-.seccionElegirnos .hijoPorQueElegirnosImagen .fotoCocinero {
+
+.fotoCocinero {
   position: relative;
   top: 15px;
   left: 145px;
@@ -149,45 +153,52 @@ footer .logoFooterTwitter {
   -webkit-border-radius: 10px 10px 10px 10px;
   -moz-border-radius: 10px 10px 10px 10px;
 }
-.seccionElegirnos .cajaConfianza {
+
+.cajaConfianza {
   height: 425px;
   width: 85%;
   display: flex;
   margin: auto;
 }
-.seccionElegirnos .cajaConfianza .hijoConfianzaTexto {
+
+.hijoConfianzaTexto {
   height: 432px;
   width: 1000px;
   margin-top: 75px;
   margin-left: 35px;
 }
-.seccionElegirnos .cajaConfianza .hijoConfianzaimagenes {
+
+.hijoConfianzaimagenes {
   margin-top: 75px;
   height: 300px;
   width: fit-content;
 }
-.seccionElegirnos .cajaConfianza .hijoConfianzaimagenes .logoMedalia {
+
+.logoMedalia {
   position: relative;
   top: 45px;
   left: 10px;
   height: auto;
   width: auto;
 }
-.seccionElegirnos .cajaConfianza .hijoConfianzaimagenes .logoPuig {
+
+.logoPuig {
   position: relative;
   top: 55px;
   left: -15px;
   height: 120px;
   width: auto;
 }
-.seccionElegirnos .cajaConfianza .hijoConfianzaimagenes .logoDHL {
+
+.logoDHL {
   position: relative;
   top: 55px;
   left: 5px;
   height: auto;
   width: auto;
 }
-.seccionElegirnos .cajaConfianza .hijoConfianzaimagenes .logoYKK {
+
+.logoYKK {
   position: relative;
   top: 25px;
   left: -15px;
@@ -202,6 +213,7 @@ footer .logoFooterTwitter {
 
 /* Lo siguiente afecta al html "Acerca de.." */
 .contendorGrid {
+  background-color: rgb(44, 44, 40);
   display: grid;
   grid-template-areas: "titulo titulo titulo" "cocineros cocineros historia1" "historia2  historia2 grupoDeAmigos" "historia3 historia3  grupoDeAmigos";
   grid-template-columns: 30% 30% 35%;
@@ -210,6 +222,12 @@ footer .logoFooterTwitter {
   justify-content: center;
   justify-items: center;
   align-items: center;
+  margin-right: 34px;
+  margin-left: 34px;
+  margin-top: 34px;
+  border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
 }
 .contendorGrid img {
   width: 100%;
@@ -238,7 +256,9 @@ footer .logoFooterTwitter {
   width: 85%;
   height: 700px;
   display: flex;
-  margin: auto;
+  margin-right: 34px;
+  margin-left: 7%;
+  margin-top: 34px;
   font-family: "Inclusive Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 200;
@@ -267,13 +287,15 @@ footer .logoFooterTwitter {
   -webkit-border-radius: 10px 10px 10px 10px;
   -moz-border-radius: 10px 10px 10px 10px;
 }
-.seccionNewsletter .cajaNewsletter {
+
+.cajaNewsletter {
   height: 578px;
   width: 85%;
   display: flex;
   margin: auto;
 }
-.seccionNewsletter .cajaNewsletter .hijoNewsletter {
+
+.hijoNewsletter {
   height: 432px;
   width: 768px;
   margin-top: 5px;
@@ -298,7 +320,7 @@ footer .logoFooterTwitter {
   }
   .hijoPorQueElegirnosTexto {
     height: 100%;
-    width: 350px;
+    width: 80%;
     margin-top: 75px;
     margin-left: 35px;
   }
@@ -309,7 +331,7 @@ footer .logoFooterTwitter {
   .fotoCocinero {
     height: 80%;
     position: relative;
-    size-adjust: 10%;
+    width: 199%;
     top: 0px;
     left: 0px;
     border-radius: 10px 10px 10px 10px;
@@ -325,7 +347,7 @@ footer .logoFooterTwitter {
   }
   .hijoConfianzaTexto {
     height: 100%;
-    width: 350px;
+    width: 80%;
     margin-top: 75px;
     margin-left: 35px;
   }
@@ -420,7 +442,7 @@ footer .logoFooterTwitter {
   }
   .hijoNewsletter {
     height: 100%;
-    width: 350px;
+    width: 80%;
     margin-top: 5px;
     margin-left: 35px;
   }

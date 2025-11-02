@@ -8,18 +8,20 @@
   border-radius: 10px 10px 10px 10px;
   -webkit-border-radius: 10px 10px 10px 10px;
   -moz-border-radius: 10px 10px 10px 10px;
-    .cajaNewsletter {
-        height: 578px; 
-        width: 85%;
-        display: flex;
-        margin: auto;
-        .hijoNewsletter {
-            height: 432px;
-            width: 768px;
-            margin-top: 5px;
-            margin-left: 35px;
-  
-        }
-    }
 }
+
+.cajaNewsletter {
+    height: 578px; 
+    width: 85%;
+    display: flex;
+    margin: auto;
+}
+
+.hijoNewsletter {
+    height: 432px;
+    width: 768px;
+    margin-top: 5px;
+    margin-left: 35px;
+}
+
 

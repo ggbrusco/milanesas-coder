@@ -49,7 +49,9 @@
   border-radius: 10px 10px 10px 10px;
   -webkit-border-radius: 10px 10px 10px 10px;
   -moz-border-radius: 10px 10px 10px 10px;
-    .cajaPorQueElegirnos {
+}
+
+.cajaPorQueElegirnos {
         height: 578px; 
         width: 85%;
         display: flex;
@@ -59,70 +61,80 @@
         border-top: unset;
         border-left: unset;
         border-right: unset;
-        .hijoPorQueElegirnosTexto {
-            height: 432px;
-            width: 768px;
-            margin-top: 75px;
-            margin-left: 35px;
-        }    
-    }
-        .hijoPorQueElegirnosImagen {
+}
+
+.hijoPorQueElegirnosTexto {
+  height: 432px;
+  width: 768px;
+  margin-top: 75px;
+  margin-left: 35px;
+}    
+
+
+.hijoPorQueElegirnosImagen {
             height: 578px;
             width: 768px;        
-            .fotoCocinero {
-                position: relative;
-                top: 15px; 
-                left: 145px;
-                border-radius: 10px 10px 10px 10px;
-                -webkit-border-radius: 10px 10px 10px 10px;
-                -moz-border-radius: 10px 10px 10px 10px;
-            }
         }
-    .cajaConfianza {
+    
+.fotoCocinero {
+    position: relative;
+    top: 15px; 
+    left: 145px;
+    border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+  }
+    
+.cajaConfianza {
         height: 425px; 
         width: 85%;
         display: flex;
         margin: auto;
-        .hijoConfianzaTexto {
-            height: 432px;
-            width: 1000px;
-            margin-top: 75px;
-            margin-left: 35px;
-        }
-        .hijoConfianzaimagenes {
-            margin-top: 75px;
-            height: 300px;
-            width: fit-content;
-            .logoMedalia {
-                position: relative;
-                top: 45px; 
-                left: 10px;
-                height: auto;
-                width: auto;
-            }
-            .logoPuig{ 
-                position: relative;
-                top: 55px; 
-                left: -15px;
-                height: 120px;
-                width: auto;
-            }
-            .logoDHL {
-            position: relative;
-            top: 55px; 
-            left: 5px;
-            height: auto;
-            width: auto;
-          }
-          .logoYKK {
-            position: relative;
-            top: 25px; 
-            left: -15px;
-            height: 120px;
-            width: auto;
-          }
-        }
-   }
+  }
+
+.hijoConfianzaTexto {
+  height: 432px;
+  width: 1000px;
+  margin-top: 75px;
+  margin-left: 35px;
+  }
+
+.hijoConfianzaimagenes {
+  margin-top: 75px;
+  height: 300px;
+  width: fit-content;
+}
+
+.logoMedalia {
+  position: relative;
+  top: 45px; 
+  left: 10px;
+  height: auto;
+  width: auto;
+}
+
+.logoPuig { 
+  position: relative;
+  top: 55px; 
+  left: -15px;
+  height: 120px;
+  width: auto;
+}
+            
+.logoDHL {
+  position: relative;
+  top: 55px; 
+  left: 5px;
+  height: auto;
+  width: auto;
+}
+          
+.logoYKK {
+  position: relative;
+  top: 25px; 
+  left: -15px;
+  height: 120px;
+  width: auto;
 }
 
 .bannerYAgradecimientos {

@@ -1,6 +1,7 @@
 /* Lo siguiente afecta al html "Acerca de.." */
 
 .contendorGrid {
+  background-color: rgb(44, 44, 40);
   display: grid;
   grid-template-areas:
   "titulo titulo titulo"
@@ -14,6 +15,12 @@
   justify-content: center;
   justify-items: center;
   align-items: center;
+  margin-right: 34px;
+  margin-left: 34px;
+  margin-top: 34px;
+  border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
   img {
         width: 100%;
     }
@@ -47,7 +54,9 @@
   width: 85%;
   height: 700px;
   display: flex;
-  margin: auto;
+  margin-right: 34px;
+  margin-left: 7%;
+  margin-top: 34px;
   font-family: "Inclusive Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 200;
