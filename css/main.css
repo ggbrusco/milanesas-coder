@@ -302,7 +302,7 @@ footer .logoFooterTwitter {
   margin-left: 35px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 1476px) {
   .logoHeader {
     height: 55px;
   }
@@ -324,20 +324,6 @@ footer .logoFooterTwitter {
     margin-top: 75px;
     margin-left: 35px;
   }
-  .hijoPorQueElegirnosImagen {
-    height: 100%;
-    width: 50%;
-  }
-  .fotoCocinero {
-    height: 80%;
-    position: relative;
-    width: 199%;
-    top: 0px;
-    left: 0px;
-    border-radius: 10px 10px 10px 10px;
-    -webkit-border-radius: 10px 10px 10px 10px;
-    -moz-border-radius: 10px 10px 10px 10px;
-  }
   .cajaConfianza {
     height: 100%;
     width: auto;
@@ -356,20 +342,6 @@ footer .logoFooterTwitter {
     height: 100%;
     width: 90px;
   }
-  .logoMedalia {
-    position: relative;
-    top: 10px;
-    left: 10px;
-    height: 100px;
-    width: auto;
-  }
-  .logoPuig {
-    position: relative;
-    top: 10px;
-    left: -15px;
-    height: 100px;
-    width: auto;
-  }
   .logoDHL {
     position: relative;
     top: 2px;
@@ -377,13 +349,26 @@ footer .logoFooterTwitter {
     height: 100px;
     width: auto;
   }
-  .logoYKK {
-    position: relative;
-    top: 5px;
-    left: -15px;
-    height: 100px;
-    width: auto;
+  .cajaPreguntas {
+    height: 800px;
+    width: 92%;
+    display: flex;
+    margin-top: 5%;
+    margin-left: 4%;
+    border-bottom-color: aliceblue;
+    border-style: dotted;
+    border-top: unset;
+    border-left: unset;
+    border-right: unset;
   }
+  .hijoPreguntas {
+    height: 100%;
+    width: 350px;
+    margin-top: 75px;
+    margin-left: 35px;
+  }
+}
+@media (max-width: 1274px) {
   .contendorGrid {
     height: 100%;
     width: auto;
@@ -406,45 +391,6 @@ footer .logoFooterTwitter {
   }
   .historia3 {
     padding: 5%;
-  }
-  .tamañoChiquito {
-    font-size: 10px;
-  }
-  .tamañoChiquitoEnviar {
-    font-size: 30px;
-  }
-  .cajaPreguntas {
-    height: 1300px;
-    width: 100%;
-    display: flex;
-    margin: auto;
-    border-bottom-color: aliceblue;
-    border-style: dotted;
-    border-top: unset;
-    border-left: unset;
-    border-right: unset;
-  }
-  .hijoPreguntas {
-    height: 100%;
-    width: 350px;
-    margin-top: 75px;
-    margin-left: 35px;
-  }
-  .tamanoMapa {
-    width: 80%;
-  }
-  .cajaNewsletter {
-    height: 100%;
-    width: auto;
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-  }
-  .hijoNewsletter {
-    height: 100%;
-    width: 80%;
-    margin-top: 5px;
-    margin-left: 35px;
   }
 }
 @media (max-width: 800px) {
@@ -592,7 +538,88 @@ footer .logoFooterTwitter {
     margin-left: 35px;
   }
 }
-@media (max-width: 1274px) {
+@media (max-width: 480px) {
+  .logoHeader {
+    height: 55px;
+  }
+  .cajaPorQueElegirnos {
+    height: 100%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border-bottom-color: aliceblue;
+    border-style: dotted;
+    border-top: unset;
+    border-left: unset;
+    border-right: unset;
+  }
+  .hijoPorQueElegirnosTexto {
+    height: 100%;
+    width: 80%;
+    margin-top: 75px;
+    margin-left: 35px;
+  }
+  .hijoPorQueElegirnosImagen {
+    height: 100%;
+    width: 50%;
+  }
+  .fotoCocinero {
+    height: 80%;
+    position: relative;
+    width: 199%;
+    top: 0px;
+    left: 0px;
+    border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+  }
+  .cajaConfianza {
+    height: 100%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+  .hijoConfianzaTexto {
+    height: 100%;
+    width: 80%;
+    margin-top: 75px;
+    margin-left: 35px;
+  }
+  .hijoConfianzaimagenes {
+    margin-top: 10px;
+    height: 100%;
+    width: 90px;
+  }
+  .logoMedalia {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    height: 100px;
+    width: auto;
+  }
+  .logoPuig {
+    position: relative;
+    top: 10px;
+    left: -15px;
+    height: 100px;
+    width: auto;
+  }
+  .logoDHL {
+    position: relative;
+    top: 2px;
+    left: 5px;
+    height: 100px;
+    width: auto;
+  }
+  .logoYKK {
+    position: relative;
+    top: 5px;
+    left: -15px;
+    height: 100px;
+    width: auto;
+  }
   .contendorGrid {
     height: 100%;
     width: auto;
@@ -616,60 +643,17 @@ footer .logoFooterTwitter {
   .historia3 {
     padding: 5%;
   }
-}
-@media (max-width: 1476px) {
-  .logoHeader {
-    height: 55px;
+  .tamañoChiquito {
+    font-size: 10px;
   }
-  .cajaPorQueElegirnos {
-    height: 100%;
-    width: auto;
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    border-bottom-color: aliceblue;
-    border-style: dotted;
-    border-top: unset;
-    border-left: unset;
-    border-right: unset;
-  }
-  .hijoPorQueElegirnosTexto {
-    height: 100%;
-    width: 80%;
-    margin-top: 75px;
-    margin-left: 35px;
-  }
-  .cajaConfianza {
-    height: 100%;
-    width: auto;
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-  }
-  .hijoConfianzaTexto {
-    height: 100%;
-    width: 80%;
-    margin-top: 75px;
-    margin-left: 35px;
-  }
-  .hijoConfianzaimagenes {
-    margin-top: 10px;
-    height: 100%;
-    width: 90px;
-  }
-  .logoDHL {
-    position: relative;
-    top: 2px;
-    left: 5px;
-    height: 100px;
-    width: auto;
+  .tamañoChiquitoEnviar {
+    font-size: 30px;
   }
   .cajaPreguntas {
-    height: 800px;
-    width: 92%;
+    height: 1300px;
+    width: 100%;
     display: flex;
-    margin-top: 5%;
-    margin-left: 4%;
+    margin: auto;
     border-bottom-color: aliceblue;
     border-style: dotted;
     border-top: unset;
@@ -680,6 +664,22 @@ footer .logoFooterTwitter {
     height: 100%;
     width: 350px;
     margin-top: 75px;
+    margin-left: 35px;
+  }
+  .tamanoMapa {
+    width: 80%;
+  }
+  .cajaNewsletter {
+    height: 100%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+  .hijoNewsletter {
+    height: 100%;
+    width: 80%;
+    margin-top: 5px;
     margin-left: 35px;
   }
 }
