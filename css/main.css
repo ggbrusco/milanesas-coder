@@ -1,6 +1,7 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Honk&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Economica:ital,wght@1,400;1,700&family=Honk:MORF,SHLN@18,100&family=Inclusive+Sans:ital,wght@0,300..700;1,300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
 /* Colores de fondo para cada sección
 
 Para el Html entero: rgb(122, 122, 115)
@@ -32,7 +33,7 @@ header {
   z-index: 99; /* tuve que escribir esto para que el header este por encima de las "cards" de bootstrp" */
 }
 header .logoHeader {
-  height: 75px;
+  height: 55px;
 }
 header nav .fondoColorNav {
   background-color: rgb(87, 86, 79);
@@ -69,6 +70,19 @@ footer .logoFooterFacebook {
 }
 footer .logoFooterTwitter {
   height: 50px;
+}
+
+.fuenteParrafos, .fuenteParrafosOscura {
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-shadow: 2px 5px 3px rgba(0, 0, 0, 0.62);
+  color: white;
+}
+
+.fuenteParrafosOscura {
+  color: black;
+  text-shadow: 2px 5px 3px white;
 }
 
 /* Lo siguiente afecta al html "Inicio o Index.." */
@@ -279,13 +293,10 @@ footer .logoFooterTwitter {
 
 /* Lo siguiente afecta al html "Newsletter" */
 .seccionNewsletter {
-  background-color: rgb(44, 44, 40);
   margin-right: 34px;
   margin-left: 34px;
   margin-top: 34px;
   border-radius: 10px 10px 10px 10px;
-  -webkit-border-radius: 10px 10px 10px 10px;
-  -moz-border-radius: 10px 10px 10px 10px;
 }
 
 .cajaNewsletter {
@@ -293,6 +304,9 @@ footer .logoFooterTwitter {
   width: 85%;
   display: flex;
   margin: auto;
+  background-color: rgb(44, 44, 40);
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
 }
 
 .hijoNewsletter {

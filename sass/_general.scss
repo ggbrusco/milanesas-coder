@@ -1,7 +1,7 @@
 @use "./variables" as*;
 @import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');   
 @import url('https://fonts.googleapis.com/css2?family=Economica:ital,wght@1,400;1,700&family=Honk:MORF,SHLN@18,100&family=Inclusive+Sans:ital,wght@0,300..700;1,300..700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
 
 /* Colores de fondo para cada sección
 
@@ -37,7 +37,7 @@ header {
     top: 0;
     z-index: 99;           /* tuve que escribir esto para que el header este por encima de las "cards" de bootstrp" */
     .logoHeader {
-            height: 75px; 
+            height: 55px; 
          }
     nav{
       .fondoColorNav {
@@ -45,6 +45,7 @@ header {
     }
  }
 }
+
 
 head ul {
   list-style-type: none;
@@ -82,4 +83,18 @@ footer {
     .logoFooterTwitter {
     height: 50px;
     }
+}
+
+.fuenteParrafos {
+  font-family: $fontParrafos;
+  font-weight: 400;
+  font-style: normal;
+  text-shadow: 2px 5px 3px rgba(0,0,0,0.62);
+  color: white;
+}
+
+.fuenteParrafosOscura {
+  @extend .fuenteParrafos;
+  color: black;
+  text-shadow: 2px 5px 3px white;
 }

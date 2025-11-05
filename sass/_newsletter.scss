@@ -1,13 +1,10 @@
 /* Lo siguiente afecta al html "Newsletter" */
 
 .seccionNewsletter {
-  background-color: rgb(44, 44, 40);
   margin-right: 34px;
   margin-left: 34px;
   margin-top: 34px;
-  border-radius: 10px 10px 10px 10px;
-  -webkit-border-radius: 10px 10px 10px 10px;
-  -moz-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px; 
 }
 
 .cajaNewsletter {
@@ -15,7 +12,10 @@
     width: 85%;
     display: flex;
     margin: auto;
-}
+    background-color: rgb(44, 44, 40);
+    -webkit-border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+  }
 
 .hijoNewsletter {
     height: 432px;
