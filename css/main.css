@@ -227,6 +227,7 @@ footer .logoFooterTwitter {
 
 /* Lo siguiente afecta al html "Acerca de.." */
 .contendorGrid {
+  font-size: 85%;
   background-color: rgb(44, 44, 40);
   display: grid;
   grid-template-areas: "titulo titulo titulo" "cocineros cocineros historia1" "historia2  historia2 grupoDeAmigos" "historia3 historia3  grupoDeAmigos";
@@ -380,6 +381,9 @@ footer .logoFooterTwitter {
     width: 350px;
     margin-top: 75px;
     margin-left: 35px;
+  }
+  .contendorGrid {
+    font-size: 85%;
   }
 }
 @media (max-width: 1274px) {
