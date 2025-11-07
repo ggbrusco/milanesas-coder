@@ -701,5 +701,43 @@ footer .logoFooterTwitter {
     margin-left: 35px;
   }
 }
+@media (max-width: 349px) {
+  main {
+    font-size: x-small;
+  }
+  .logoMedalia {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    height: 100px;
+    width: 125%;
+  }
+  .logoPuig {
+    position: relative;
+    top: 10px;
+    left: -15px;
+    height: 100px;
+    width: 125%;
+  }
+  .logoDHL {
+    position: relative;
+    top: 2px;
+    left: 5px;
+    height: 100px;
+    width: 125%;
+  }
+  .logoYKK {
+    position: relative;
+    top: 5px;
+    left: -15px;
+    height: 100px;
+    width: 125%;
+  }
+}
+@media (max-width: 373px) {
+  .navbar-brand {
+    display: none;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */

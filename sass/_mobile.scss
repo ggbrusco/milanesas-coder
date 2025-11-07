@@ -1,4 +1,4 @@
-@media (max-width:1476px) {
+@media (max-width:1476px) { // Arreglos desktop
   .logoHeader {
     height: 55px;
   }
@@ -76,7 +76,7 @@ font-size: 85%;
 }
 }
 
-@media (max-width:1274px) {
+@media (max-width:1274px) { // Arregos desktop
   .contendorGrid {
   height: 100%; 
   width: auto;
@@ -107,7 +107,7 @@ font-size: 85%;
 }
 }
 
-@media (max-width:800px) {
+@media (max-width:800px) {  // Tablet
   .logoHeader {
     height: 55px;
   }
@@ -277,7 +277,7 @@ font-size: 85%;
 }
 }
 
-@media (max-width:480px) {
+@media (max-width:480px) {  // Celular
   .logoHeader {
     height: 55px;
   }
@@ -447,4 +447,45 @@ font-size: 85%;
 }
 }
 
+@media (max-width:349px) {  // Arreglos ancho muy chico
+  main {
+    font-size: x-small;
+  }
+  .logoMedalia {
+    position: relative;
+    top: 10px; 
+    left: 10px;
+    height: 100px;
+    width: 125%;
+  }
 
+  .logoPuig { 
+    position: relative;
+    top: 10px; 
+    left: -15px;
+    height: 100px;
+    width: 125%;
+  }
+
+  .logoDHL {
+    position: relative;
+    top: 2px; 
+    left: 5px;
+    height: 100px;
+    width: 125%;
+  }
+
+  .logoYKK {
+    position: relative;
+    top: 5px; 
+    left: -15px;
+    height: 100px;
+    width: 125%;
+  }
+}
+
+@media (max-width:373px) { // Se quita el logo para que no haya scroll horizontal
+  .navbar-brand {
+    display: none;
+  }
+}
